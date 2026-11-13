@@ -4,7 +4,9 @@
 #         self.val = x
 #         self.next = None
 
+from typing import Optional
 class Solution:
+    ListNode = None
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         fast = head
         slow = head
